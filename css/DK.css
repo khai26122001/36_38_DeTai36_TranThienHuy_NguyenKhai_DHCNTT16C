@@ -1,0 +1,399 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.Main 
+{
+  width: 1500px;
+  height: auto;
+  margin: auto;
+  background-color: #ffffff;
+}
+.header0
+{
+  width: 100%;
+  height: 80px;
+}
+.header__search-options-item p {
+  margin-top: 10px;
+}
+.header1
+{
+  width: 100%;
+  height: 200px;
+}
+.header {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+} 
+.header__logo-pc-svg {
+  width: 70px;
+  height: 70px;
+  border: 10px solid var(--gray-color);
+  border-radius: 50%;
+}
+.header__containe {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__search {
+  flex: 1;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+  position: relative;
+}
+.header__search-input {
+  padding-left: 36px;
+  padding-right: 10px;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.header__search-input:focus{
+  outline: none;
+}
+.header__search-icon {
+  position: absolute;
+  top: 2px;
+  color: #423f3e;
+  height: 100%;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -1px;
+}
+.header__search-inputs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  font-size: 14px;
+  flex: 1;
+}
+.header__search-options {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  height: 100%;
+}
+.header__search-options-item {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+.header__search-options-item {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+.header__search-options-item::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  background: #f2f2f2;
+  left: 0;
+}
+.header__search-submit-btn {
+  background: var(--dark-color);
+  border: none;
+  padding: 9px 18px;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 8px;
+}
+.header__nav {
+  flex: 1;
+}
+.header__nav-list li a {
+  text-decoration: none;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  color: #1b1d1d;
+}
+.header__nav-item a:hover {
+  color: #74d2da;
+}
+.header__nav-item {
+  list-style: none;
+  position: relative;
+}
+.header__nav-link {
+  padding: 10px 15px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header__search-inputs a p {
+  margin-top: 10px;
+}
+
+/* Gần trên */
+.NearAbove
+{
+    width: 100%;
+    height: 60px;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+.NearAbove0, .NearAbove7
+{
+    width: 16.66666666666666%;
+    height: 100%;
+    float: left;
+    background-color: #74d2da;
+    
+}
+.NearAbove1, .NearAbove2, .NearAbove3, .NearAbove4, .NearAbove5, .NearAbove6
+{
+    width: 11.111111111%;
+    height: 100%;
+    float: left;
+    background-color: #74d2da;
+    
+}
+.NearAbove1 li a, .NearAbove2 li a, .NearAbove3 li a, .NearAbove4 li a, .NearAbove5 li a, .NearAbove6 li a {
+  text-decoration: none;
+}
+
+
+ /* chỉnh menu*/
+.Menu
+{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.Menu1:hover .Menu{
+  background-color: #74d2da;
+}
+.Menu1
+{
+  display: inline-block;
+}
+.Menu2
+{
+  display: none;
+  position: absolute;
+  background-color: #74d2da;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.Menu2 a
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.Menu2 a:hover
+{
+  background-color: rgb(255, 248, 240);
+}
+.Menu1:hover .Menu2
+{
+  display: block;
+}
+
+/* Khung giữa */
+.Between
+{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff;
+    float: left;
+} 
+.Between1
+{
+    width: 20%;
+    height: auto;
+    float: left; 
+    background-color: rgb(255, 255, 255);
+}   
+.Between2
+{
+    width: 80%;
+    height: auto;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+}
+.form-group span {
+    margin-left: 10px;
+}
+
+/* chia 37 khung nhỏ trong .Between2 */
+.frames
+{
+    width: 25%;
+    height: 350px;
+    float: left;
+    background-color: #ffffff;
+}
+.frames img 
+{
+  width: 80%;
+  text-align: center;
+  height: 70%;
+  border: 1px solid #861a1a; 
+}
+.frames a
+{
+  color: #1b1d1d;
+}
+.frames a:hover 
+{
+  color: #74d2da;
+}
+.frames p {
+  color: #74d2da;
+
+}
+
+/* slide chuyển động tự động*/
+#slideshow 
+{
+    overflow: hidden;
+    height: 200px;
+    
+}
+.slide-wrapper 
+{
+    width: 400%;
+    -webkit-animation: slide 25s ease infinite;
+}
+.slide 
+{
+    float: left;
+    width: 250px; 
+    height: 200px;
+}
+@-webkit-keyframes slide 
+{
+    10% {margin-left: 0px;}
+    20% {margin-left: -250px;}   
+    30% {margin-left: -250px;}
+    40% {margin-left: -500px;}
+    50% {margin-left: -500px;}
+    60% {margin-left: -750px;}
+    70% {margin-left: -750px;}
+    80% {margin-left: -1000px;}
+    90% {margin-left: -1000px;}
+    100% {margin-left: -1250px;}
+    110% {margin-left: -1250px;}
+    120% {margin-left: -1500px;}
+    130% {margin-left: -1500px;}
+    140% {margin-left: -1750px;}
+    150% {margin-left: -1750px;}
+    160% {margin-left: -2000px;}
+    170% {margin-left: -2000px;}
+}
+
+/* Chuyển trang*/
+.NextPage
+{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin-bottom:100px;
+}
+.NextPage input
+{
+  margin-top: 60px;
+  margin-left: 5px;
+  
+}
+
+/* khung gần cuối*/
+.NearEnd
+{
+  width: 100%;
+  height: 180px;
+  background-color: #ffffff;
+}
+.NearEnd1, .NearEnd2, .NearEnd3, .NearEnd4
+{
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: #74d2da;
+}
+.NearEnd1 a, .NearEnd2 a, .NearEnd3 a, .NearEnd4 a
+{
+  color: #ffffff;
+  margin-left: 50px;
+}
+.NearEnd1 H4, .NearEnd2 H4, .NearEnd3 H4, .NearEnd4 H4
+{
+  color: #ffffff;
+  margin-left: 50px;
+}
+.NearEnd1 a:hover, .NearEnd2 a:hover, .NearEnd3 a:hover, .NearEnd4 a:hover
+{
+  color: #891b1b;
+  
+}
+
+
+/*Phần chân trang*/
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color: #1b1d1d;
+    float: left;
+}
+.footer P
+{
+  color: #ffffff;
+}
+
+#box h2 {
+  text-align: center;
+}  
+.d1 button
+{
+  background-color: rgb(218, 77, 77);
+}
+.d2 button {
+  background-color: rgb(209, 218, 77);
+}
+.header__search-inputs p {
+  margin-left: 20px;
+}
+
+
+
